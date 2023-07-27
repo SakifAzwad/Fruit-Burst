@@ -25,6 +25,10 @@
         .font-Lato {
             font-family: 'Lato', sans-serif;
         }
+        .bg-grad
+        {
+            background: linear-gradient(#121212 0%, rgba(18, 18, 18, 0.00) 100%);
+        }
     </style>
 </head>
 <body class="font-Lato">
@@ -80,33 +84,85 @@
     </header>
     <main>
 
-        <div class="carousel mx-36 rounded-lg">
-            <div id="slide1" class="carousel-item relative w-full">
-              <img src="/images//banner1.png" class="w-full" />
+        <div class="carousel w-full rounded-lg lg:mx-36 lg:w-auto">
+            <div id="slide1" class="carousel-item  relative w-full ">
+                <div class="hero bg-grad bg-top bg-grad h-[450px] bg-[length:1225px_450px] bg-no-repeat " style="background-image: url(/images/banner1.png); ">
+                    
+                    <div class="hero-content text-center text-neutral-content">
+                      <div class="max-w-md mb-20">
+                        <h1 class="mb-5 text-5xl font-extrabold text-white">Exotic tastes at your doorstep</h1>
+                        <p class="mb-5 text-white">We supply highly quality organic products</p>
+                        <button class="btn btn-primary normal-case bg-primary-color border-none hover:bg-primary-color  text-white">Shop Now</button>
+                      </div>
+                    </div>
+                  </div>
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide4" class="btn btn-circle">❮</a> 
-                <a href="#slide2" class="btn btn-circle">❯</a>
+                <a href="#slide4" class="btn btn-circle  bg-black border-none"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                    <path d="M18.375 22.75L9.625 14L18.375 5.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg></a> 
+                <a href="#slide2" class="btn btn-circle bg-black border-none"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                    <path d="M9.625 5.25L18.375 14L9.625 22.75" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg></a>
               </div>
             </div> 
             <div id="slide2" class="carousel-item relative w-full">
-              <img src="/images//banner2.png" class="w-full" />
+                <div class="hero bg-grad bg-top   h-[450px] bg-[length:1225px_450px] bg-no-repeat" style="background-image: url(/images/banner2.png);">
+                    
+                    <div class="hero-content text-center text-neutral-content">
+                      <div class="max-w-md mb-20">
+                        <h1 class="mb-5 text-5xl font-extrabold text-white">Exotic tastes at your doorstep</h1>
+                        <p class="mb-5 text-white">We supply highly quality organic products</p>
+                        <button class="btn btn-primary normal-case bg-primary-color border-none hover:bg-primary-color  text-white">Shop Now</button>
+                      </div>
+                    </div>
+                  </div>
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide1" class="btn btn-circle">❮</a> 
-                <a href="#slide3" class="btn btn-circle">❯</a>
+                <a href="#slide1" class="btn btn-circle bg-black border-none"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                    <path d="M18.375 22.75L9.625 14L18.375 5.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg></a> 
+                <a href="#slide3" class="btn btn-circle  bg-black border-none"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                    <path d="M9.625 5.25L18.375 14L9.625 22.75" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg></a>
               </div>
             </div> 
             <div id="slide3" class="carousel-item relative w-full">
-              <img src="/images//banner3.png" class="w-full" />
+                <div class="hero bg-grad bg-top  h-[450px] bg-[length:1225px_450px] bg-no-repeat" style="background-image: url(/images/banner3.png);">
+                    
+                    <div class="hero-content text-center text-neutral-content">
+                      <div class="max-w-md mb-20">
+                        <h1 class="mb-5 text-5xl font-extrabold text-white">Exotic tastes at your doorstep</h1>
+                        <p class="mb-5 text-white">We supply highly quality organic products</p>
+                        <button class="btn btn-primary text-white normal-case bg-primary-color border-none hover:bg-primary-color">Shop Now</button>
+                      </div>
+                    </div>
+                  </div>
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide2" class="btn btn-circle">❮</a> 
-                <a href="#slide4" class="btn btn-circle">❯</a>
+                <a href="#slide2" class="btn btn-circle  bg-black border-none"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                    <path d="M18.375 22.75L9.625 14L18.375 5.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg></a> 
+                <a href="#slide4" class="btn btn-circle  bg-black border-none"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                    <path d="M9.625 5.25L18.375 14L9.625 22.75" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg></a>
               </div>
             </div> 
             <div id="slide4" class="carousel-item relative w-full">
-              <img src="/images//banner4.png" class="w-full" />
+                <div class="hero bg-grad bg-top h-[450px] bg-[length:1225px_450px] bg-no-repeat" style="background-image: url(/images/banner4.png);">
+                    
+                    <div class="hero-content text-center text-neutral-content">
+                      <div class="max-w-md mb-20">
+                        <h1 class="mb-5 text-5xl font-extrabold text-white">Exotic tastes at your doorstep</h1>
+                        <p class="mb-5 text-white">We supply highly quality organic products</p>
+                        <button class="btn btn-primary normal-case bg-primary-color border-none hover:bg-primary-color  text-white">Shop Now</button>
+                      </div>
+                    </div>
+                  </div>
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide3" class="btn btn-circle">❮</a> 
-                <a href="#slide1" class="btn btn-circle">❯</a>
+                <a href="#slide3" class="btn btn-circle  bg-black border-none"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                    <path d="M18.375 22.75L9.625 14L18.375 5.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg></a> 
+                <a href="#slide1" class="btn btn-circle  bg-black border-none"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                    <path d="M9.625 5.25L18.375 14L9.625 22.75" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg></a>
               </div>
             </div>
           </div>
